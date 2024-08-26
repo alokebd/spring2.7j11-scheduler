@@ -1,0 +1,15 @@
+server:
+   port: 9095
+   
+spring:
+  profiles.active: default
+
+---
+spring:
+  profiles: default
+  jmx.enabled: false
+  
+example:
+  scheduledJob: 
+    enabled: true
+
