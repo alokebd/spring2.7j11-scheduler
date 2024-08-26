@@ -24,7 +24,6 @@ public class CommentRepository {
 
     public List<Comment> findAll() {
         return comments.stream()
-          // .filter(notification -> !notification.isSentOut())
             .collect(Collectors.toList());
     }
 
